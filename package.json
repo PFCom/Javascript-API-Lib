@@ -1,0 +1,25 @@
+{
+  "name": "javascript-api-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/PFComAPI.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PFCom/Javascript-API-Lib.git"
+  },
+  "author": "ArtifyCZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PFCom/Javascript-API-Lib/issues"
+  },
+  "homepage": "https://github.com/PFCom/Javascript-API-Lib#readme",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "node-fetch": "^2.6.1",
+    "typescript": "^4.3.2"
+  },
+  "type": "commonjs"
+}
