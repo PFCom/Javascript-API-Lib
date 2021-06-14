@@ -1,5 +1,5 @@
 import {HttpClient} from "./HttpClient";
-import * as https from "https";
+const https = require("https")
 
 const fetchFun = require("node-fetch")
 

@@ -2,11 +2,17 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "outDir": "./built",
+    "noImplicitAny": true,
+    "module": "commonjs",
     "lib": [
       "es2015",
       "dom"
     ],
-    "target": "ES5"
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true
   },
   "include": [
     "src/*"

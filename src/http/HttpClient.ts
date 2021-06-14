@@ -97,6 +97,6 @@ export class HttpClient {
 }
 
 export class HttpResponse {
-    httpStatus: number
-    body: any
+    httpStatus: number = 0
+    body: any = {}
 }
